@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./eric_reset.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+
+        .form-register {
+            width: 100%;
+            max-width: 330px;
+            padding: 15px;
+            margin: auto;
+        }
+
+        .service-title {
+            text-align: left;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-register card card-body">
+            <p class="service-title">まちもりブザー</p>
+            <h3>新規登録</h3>
+            <button type="button" class="btn btn-warning btn-block"
+                style="margin-bottom: 1rem!important;" onclick="location.href='./registration_parent.html'">保護者</button>
+            <button type="button" class="btn btn-info btn-block"
+                style="margin-bottom: 1rem!important;" onclick="location.href='./registration_safehouse.html'">こどもをまもるいえ</button>
+                <button type="button" class="btn btn-secondary btn-block" onclick="location.href='./index.html'">戻る</button>
+        </form>
+    </div>
+</body>
+
+</html>

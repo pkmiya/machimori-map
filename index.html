@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./eric_reset.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+            html,
+            body {
+                height: 100%;
+            }
+    
+            body {
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-align: center;
+                align-items: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+            
+            .form-title {
+                text-align: left;
+            }
+
+            .form-title-login {
+                text-align: center;
+            }
+    
+            .form-login {
+                width: 100%;
+                max-width: 330px;
+                padding: 15px;
+                margin: auto;
+            }
+            
+            .col-lg-6 {
+                margin-bottom: 5px;
+            }
+            
+    
+            /* スマホ縦画面用 */
+            @media screen and (max-width: 768px) {
+                .btn-margin {
+                    margin-bottom: 1rem !important;
+                }
+            }
+        </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>まちもりブザー - ログイン</title>
+</head>
+
+<body>
+    <header>
+        
+    </header>
+
+    <div class="container">
+        <form class="form-login card card-body">
+            <p class="form-title">まちもりブザー</p>
+            <h3 class="form-title-login">ログイン</h3>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <label for="InputEmailaddress">メールアドレス</label>
+                        <input type="email" class="form-control" id="InputEmailaddress" placeholder="メールアドレス">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <label for="Password">パスワード</label>
+                        <input type="password" class="form-control" id="Password" placeholder="パスワード">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <button type="button" class="btn btn-danger btn-block btn-margin">ログイン</button>
+                </div>
+                <div class="col-lg-6">
+                    <button type="button" class="btn btn-warning btn-block" onclick="location.href='./select_type.html'">新規登録</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
