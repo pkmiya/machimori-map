@@ -7,6 +7,9 @@ The author just uploaded the file to unveil this achievement and thank his senio
 - [Committee official result](https://www.procon.gr.jp/wp-content/uploads//2019/10/c0b490b4b7735fe3aa78a7f4a4f77d59.pdf)
 
 # Misc
-For more info or inquiries, contact the author "pkmiya".
+- The copyright is held by the development team in Sysken.
+- For more info or inquiries, contact the author "pkmiya".
 
 v1.0 / 2023-09-25
+
+2019 @ Information Systems Labolatory, All rights reserved.
